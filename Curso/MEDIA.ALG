@@ -13,9 +13,14 @@ Inicio
    Leia (nota3)
    Escreva("A quarta nota é: ")
    Leia (nota4)
-   
+
    media <- (nota1 + nota2 + nota3 + nota4) / 4
-   
-   Escreva("A media é: ", media)
-   
+
+   EscrevaL("A media do aluno foi ", media:4:2)
+   Se (media >= 6) entao
+      EscrevaL("Aluno APROVADO")
+   senao
+      EscrevaL ("Aluno REPROVADO")
+   FimSe
+
 Fimalgoritmo
